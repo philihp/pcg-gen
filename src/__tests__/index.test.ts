@@ -1,27 +1,28 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { srand } from '..'
+import { pcggen } from '..'
 
 describe('srand', () => {
-  const randomizer = srand(42n)
-
   it('returns an iterator', () => {
     expect.assertions(1)
+    const randomizer = pcggen(42n)
     expect(typeof randomizer.next).toBe('function')
   })
 
   it('returns an iterable', () => {
     expect.assertions(1)
+    const randomizer = pcggen(42n)
     expect(typeof randomizer[Symbol.iterator]).toBe('function')
   })
 
   it('returns a generator', () => {
     expect.assertions(1)
+    const randomizer = pcggen(42n)
     expect(randomizer[Symbol.iterator]()).toBe(randomizer)
   })
 
   it('can be used like an iterator', () => {
     expect.assertions(2)
-    const randomizer = srand(42n)
+    const randomizer = pcggen(42n)
     const results = []
     for (const num of randomizer) {
       // infinite loop, unless you do this
@@ -46,6 +47,7 @@ describe('srand', () => {
 
   it('behaves like an infinite generator', () => {
     expect.assertions(2)
+    const randomizer = pcggen(42n)
     const { value, done } = randomizer.next()
     expect(value).toBe(11541586741780280317n)
     expect(done).toBeFalsy()

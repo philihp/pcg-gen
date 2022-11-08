@@ -1,12 +1,11 @@
 // PCG-XSH-RR
-
 const mask = 0xffffffffffffffffn
 const increment = 1442695040888963407n
 const multiplier = 63641362238467932305n
 
 const rotr32 = (x: bigint, r: bigint) => (x >> r) | (x << (-r & 31n))
 
-export function* srand(seed: bigint) {
+export function* pcggen(seed = 12345n) {
   let state = seed + increment
 
   while (true) {
