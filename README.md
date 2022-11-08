@@ -11,6 +11,8 @@ A permuted congruential generator (PCG) is a pseudorandom number generation algo
 
 This implementation uses a Javascript generator function, [because we can](https://jrsinclair.com/articles/2022/why-would-anyone-need-javascript-generator-functions/), and it also justifies the redundant package name.
 
+[There are reasons why this might be better.](https://www.pcg-random.org/index.html)
+
 ## Install
 
 ```bash
