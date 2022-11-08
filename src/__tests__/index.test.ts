@@ -4,7 +4,7 @@ import { pcggen } from '..'
 describe('srand', () => {
   it('returns an iterator', () => {
     expect.assertions(1)
-    const randomizer = pcggen(42n)
+    const randomizer = pcggen()
     expect(typeof randomizer.next).toBe('function')
   })
 
