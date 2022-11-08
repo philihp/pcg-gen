@@ -17,7 +17,9 @@
     "test:watch": "jest --watch"
   },
   "keywords": [
-    "prng", "random", "generator"
+    "prng",
+    "random",
+    "generator"
   ],
   "author": "Philihp Busby <philihp@gmail.com>",
   "license": "MIT",
@@ -64,9 +66,9 @@
       "@typescript-eslint"
     ],
     "extends": [
-      "@philihp",
       "plugin:jest/all",
-      "plugin:@typescript-eslint/recommended"
+      "plugin:@typescript-eslint/recommended",
+      "@philihp"
     ],
     "settings": {
       "import/extensions": [
@@ -89,23 +91,11 @@
       }
     },
     "rules": {
-      "@typescript-eslint/ban-ts-comment": "off",
-      "@typescript-eslint/no-explicit-any": "off",
-      "@typescript-eslint/no-unused-vars": [
-        "error",
-        {
-          "argsIgnorePattern": "^_",
-          "varsIgnorePattern": "^_",
-          "caughtErrorsIgnorePattern": "^_"
-        }
-      ],
-      "import/no-extraneous-dependencies": [
-        "error",
-        {
-          "devDependencies": [
-            "**/*.test.ts"
-          ]
-        }
+      "jest/no-conditional-in-test": "off",
+      "no-conditional-in-test": "off",
+      "no-restricted-syntax": [
+        "off",
+        "ForOfStatement"
       ]
     }
   }
