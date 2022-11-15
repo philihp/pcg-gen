@@ -30,3 +30,12 @@ const { value: r1 } = randomizer.next()
 const { value: r2 } = randomizer.next()
 // r2 <- 11541586741780280317n
 ```
+
+Because `pcggen` returns an [`iterable`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol), you can use it in a `for...of` loop if that's your kink.
+
+```js
+for(const n of rand) {
+  console.log(n)
+  if(n > 1000000) break;
+}
+```
