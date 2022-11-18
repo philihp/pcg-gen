@@ -1,5 +1,5 @@
 [![Version](https://img.shields.io/npm/v/pcg-gen)](https://www.npmjs.com/package/pcg-gen)
-[![Requirements Status](https://requires.io/github/philihp/fast-shuffle/requirements.svg?branch=main)](https://requires.io/github/philihp/fast-shuffle/requirements/?branch=main)
+[![Requirements Status](https://requires.io/github/philihp/pcg-gen/requirements.svg?branch=main)](https://requires.io/github/philihp/pcg-gen/requirements/?branch=main)
 ![Tests](https://github.com/philihp/pcg-gen/workflows/tests/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/philihp/pcg-gen/badge.svg?branch=main)](https://coveralls.io/github/philihp/pcg-gen?branch=main)
 ![Downloads](https://img.shields.io/npm/dt/pcg-gen)
@@ -34,8 +34,8 @@ const { value: r2 } = randomizer.next()
 Because `pcggen` returns an [`iterable`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol), you can use it in a `for...of` loop if that's your kink.
 
 ```js
-for(const n of rand) {
+for (const n of rand) {
   console.log(n)
-  if(n > 1000000) break;
+  if (n > 1000000) break
 }
 ```
