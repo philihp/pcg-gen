@@ -1,5 +1,4 @@
 [![Version](https://img.shields.io/npm/v/pcg-gen)](https://www.npmjs.com/package/pcg-gen)
-[![Requirements Status](https://requires.io/github/philihp/pcg-gen/requirements.svg?branch=main)](https://requires.io/github/philihp/pcg-gen/requirements/?branch=main)
 ![Tests](https://github.com/philihp/pcg-gen/workflows/tests/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/philihp/pcg-gen/badge.svg?branch=main)](https://coveralls.io/github/philihp/pcg-gen?branch=main)
 ![Downloads](https://img.shields.io/npm/dt/pcg-gen)
