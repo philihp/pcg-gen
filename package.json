@@ -34,8 +34,8 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "7.26.4",
-    "@babel/core": "7.26.8",
-    "@babel/preset-env": "7.26.8",
+    "@babel/core": "7.26.9",
+    "@babel/preset-env": "7.26.9",
     "@philihp/eslint-config": "6.1.0",
     "@philihp/prettier-config": "1.0.0",
     "@types/jest": "29.5.14",
