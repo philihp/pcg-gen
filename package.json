@@ -42,7 +42,7 @@
     "@typescript-eslint/eslint-plugin": "8.32.1",
     "@typescript-eslint/parser": "8.32.1",
     "eslint": "9.27.0",
-    "eslint-import-resolver-typescript": "4.4.0",
+    "eslint-import-resolver-typescript": "4.4.2",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jest": "28.11.0",
     "fast-shuffle": "6.1.1",
