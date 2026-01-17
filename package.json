@@ -33,9 +33,9 @@
   "author": "Philihp Busby <philihp@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "7.28.3",
-    "@babel/core": "7.28.5",
-    "@babel/preset-env": "7.28.5",
+    "@babel/cli": "7.28.6",
+    "@babel/core": "7.28.6",
+    "@babel/preset-env": "7.28.6",
     "@philihp/eslint-config": "6.1.0",
     "@philihp/prettier-config": "1.0.0",
     "@types/jest": "30.0.0",
