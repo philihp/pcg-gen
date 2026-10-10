@@ -34,9 +34,9 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "8.0.6",
-    "@babel/core": "8.0.6",
-    "@babel/preset-env": "8.0.6",
-    "@babel/preset-typescript": "8.0.1",
+    "@babel/core": "8.0.7",
+    "@babel/preset-env": "8.0.7",
+    "@babel/preset-typescript": "8.0.7",
     "@philihp/prettier-config": "1.0.0",
     "@types/jest": "30.0.0",
     "fast-shuffle": "6.2.1",
