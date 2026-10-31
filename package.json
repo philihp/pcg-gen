@@ -39,7 +39,7 @@
     "@babel/preset-typescript": "8.0.7",
     "@philihp/prettier-config": "1.0.0",
     "@types/jest": "30.0.0",
-    "fast-shuffle": "6.2.1",
+    "fast-shuffle": "7.0.0",
     "husky": "9.1.7",
     "jest": "30.5.2",
     "lint-staged": "17.6.0",
